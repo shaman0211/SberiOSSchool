@@ -1,0 +1,11 @@
+//
+//  module.modulemap
+//  FirstSwiftLib
+//
+//  Created by Artem on 06.07.2021.
+//
+
+module FirstObjCLib {
+    header "../FirstObjCLib/UmbrellaHeader.h"
+    export *
+}

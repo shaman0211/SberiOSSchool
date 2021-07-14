@@ -1,0 +1,15 @@
+//
+//  module.modulemap
+//  interoperability
+//
+//  Created by Artem on 06.07.2021.
+//
+
+module FirstObjCLib {
+    umbrella header "../FirstObjCLib/UmbrellaHeader.h"
+    export *
+    
+    explicit module SecondObjCLib {
+        umbrella header "../SecondObjCLib/UmbrellaHeader.h"
+    }
+}
